@@ -1,0 +1,32 @@
+# 开发环境配置
+
+spring:
+  # 数据源配置（请根据实际情况修改）
+  datasource:
+    url: jdbc:mysql://localhost:3306/cangying?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
+    username: root
+    password: your_password_here
+
+  # Redis 配置（请根据实际情况修改）
+  redis:
+    host: localhost
+    port: 6379
+    password:
+    database: 0
+
+# JWT 配置（请修改为安全的密钥）
+jwt:
+  secret: your_jwt_secret_key_here_please_change_in_production
+  expiration: 604800000  # 7天（毫秒）
+
+# 微信小程序配置（请填写实际的 AppID 和 AppSecret）
+wechat:
+  appid: your_wechat_appid_here
+  secret: your_wechat_secret_here
+
+# 腾讯云 COS 配置（可选，后续配置）
+cos:
+  bucket: your_bucket_name
+  region: your_region
+  secret-id: your_secret_id
+  secret-key: your_secret_key
