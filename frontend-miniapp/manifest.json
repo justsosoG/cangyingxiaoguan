@@ -1,0 +1,23 @@
+{
+	"name": "苍蝇小馆",
+	"appid": "__UNI__CANGYING",
+	"description": "发现身边的美味小店",
+	"versionName": "1.0.0",
+	"versionCode": "100",
+	"transformPx": false,
+	"mp-weixin": {
+		"appid": "请填写您的微信小程序appid",
+		"setting": {
+			"urlCheck": false,
+			"es6": true,
+			"postcss": true,
+			"minified": true
+		},
+		"usingComponents": true,
+		"permission": {
+			"scope.userLocation": {
+				"desc": "您的位置信息将用于查找附近的小馆"
+			}
+		}
+	}
+}
