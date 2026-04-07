@@ -1,0 +1,55 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "苍蝇小馆",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/detail/detail",
+			"style": {
+				"navigationBarTitleText": "馆子详情"
+			}
+		},
+		{
+			"path": "pages/input/input",
+			"style": {
+				"navigationBarTitleText": "录入馆子"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "苍蝇小馆",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#f5f5f5"
+	},
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/images/home.png",
+				"selectedIconPath": "static/images/home-active.png"
+			},
+			{
+				"pagePath": "pages/login/login",
+				"text": "我的",
+				"iconPath": "static/images/me.png",
+				"selectedIconPath": "static/images/me-active.png"
+			}
+		]
+	}
+}
